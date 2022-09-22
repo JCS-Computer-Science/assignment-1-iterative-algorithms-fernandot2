@@ -1,4 +1,5 @@
 const insertionSort = require("./insertion-sort");
+const binaryInsertionSort = require("./binary-insertion-sort");
 const selectionSort = require("./selection-sort");
 const bubbleSort = require("./bubble-sort");
 const linearSearch = require("./linear-search");
@@ -19,6 +20,9 @@ console.log(`Selection Sort: \n${selectionResult}`);
 
 let bubbleResult = bubbleSort([...sortTestArray]);
 console.log(`Bubble Sort: \n${bubbleResult}`);
+
+let binaryInsertionResult = binaryInsertionSort([...sortTestArray]);
+console.log(`Binary Insertion Sort: \n${binaryInsertionResult}`);
 
 console.log("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
 
